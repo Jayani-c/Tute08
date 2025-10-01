@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Tute8</string>
+    <string name="Count">Count</string>
+    <string name="OpenMainActivity">Open Main Activity</string>
+    <string name="Call">Call</string>
+    <string name="SMS">SMS</string>
+    <string name="WebBrowser">Web Browser</string>
+    <string name="Email">Email</string>
+    <string name="Camera">Camera</string>
 </resources>

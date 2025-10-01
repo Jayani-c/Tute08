@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/OpenMainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/OpenMainActivity" />
+
+    <Button
+        android:id="@+id/Call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Call" />
+
+    <Button
+        android:id="@+id/SMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SMS" />
+
+    <Button
+        android:id="@+id/WebBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/WebBrowser" />
+
+    <Button
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Email" />
+
+    <Button
+        android:id="@+id/Camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Camera" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+</LinearLayout>
